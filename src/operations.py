@@ -15,4 +15,4 @@ def division(a, b):
         raise ValueError("Division by zero is not allowed.")
 
 def multiplication(a, b):
-    return a ** b # there is a bug here
+    return a * b # the bug has been fixed by chris
